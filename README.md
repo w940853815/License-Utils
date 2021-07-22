@@ -5,12 +5,13 @@
 
 
 ## Requirement
+系统要求:ubtuntu20
 需安装：
 - python3-dev
 - gcc
 
   ```bash
-  sudo apt-get install python-dev gcc
+  sudo apt-get install python3-dev gcc
   ```
   
 python3需安装的第三方库：
@@ -26,3 +27,5 @@ pyinstaller -F GetHostInfo.py
 ```bash
 python3 CreateLicense.py mac地址
 ```
+## 验证license
+python3 GetLicense.py

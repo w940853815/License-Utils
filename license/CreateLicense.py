@@ -14,9 +14,9 @@ USAGE:
     python CreateLicense.py <MAC地址>
 '''
 
-seperateKey = "d#~0^38J:" 
-aesKey = "rlbINxpoedvMPhZX" 
-aesIv = "EI9z8Ayf4ubQlADq"      
+seperateKey = "xxx" 
+aesKey = "DBIn2oEPMZYfWqcO" 
+aesIv = "ILD8Qc0VVkMzNvgc"      
 aesMode = AES.MODE_CBC          # 使用CBC模式
 
 def encrypt(text):

@@ -60,7 +60,7 @@ def getLicenseInfo(filePath = None):
         licFile.close()
     ifname=get_netcard()
 
-    hostInfo = getHwAddr(ifname)
+    hostInfo = "38:f9:d3:2e:9a:14"
     
     decryptText = decrypt(encryptText.decode("utf8"))
     pos = decryptText.find(seperateKey)
