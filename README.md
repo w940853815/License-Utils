@@ -6,6 +6,7 @@
 
 ## Requirement
 系统要求:ubtuntu20
+
 需安装：
 - python3-dev
 - gcc
